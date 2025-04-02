@@ -20,6 +20,9 @@ export const register = async (req: Request, res: Response) => {
       });
     }
 
+
+
+    //nueva prueba de git
     // Hashear la contraseña antes de guardar el usuario
     const passwordHash = await bcrypt.hash(password, 10);
 

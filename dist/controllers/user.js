@@ -30,6 +30,7 @@ const register = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
                 msg: `Ya existe un usuario con el email ${email} o la credential ${credential}.`,
             });
         }
+        //nueva prueba de git
         // Hashear la contraseña antes de guardar el usuario
         const passwordHash = yield bcrypt_1.default.hash(password, 10);
         // Crear el usuario en la base de datos
